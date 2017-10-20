@@ -1,0 +1,32 @@
+﻿
+#log-image {
+    height: 80px;
+    width: 160px;
+    margin-left: 20px;
+    float:left;
+}
+
+body {
+    background-color: teal
+}
+
+#sidebar {
+
+    margin-top: 18px;
+    float:left;
+    margin-left:15px;
+}
+
+a {
+    color: black;
+}
+
+.img-responsive {
+    
+    height: 400px;
+}
+
+.my-nav-link {
+    margin-left: 5px;
+    display: inline;
+}

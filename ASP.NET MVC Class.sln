@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialViews", "PartialView
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCScaffoldingDemo", "MVCScaffoldingDemo\MVCScaffoldingDemo.csproj", "{4EED8399-499E-401E-B417-70A80764C1DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCompanyPageMVC", "MyCompanyPageMVC\MyCompanyPageMVC.csproj", "{0006BA04-6014-45A0-9EFF-6153983995CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4EED8399-499E-401E-B417-70A80764C1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EED8399-499E-401E-B417-70A80764C1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EED8399-499E-401E-B417-70A80764C1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0006BA04-6014-45A0-9EFF-6153983995CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0006BA04-6014-45A0-9EFF-6153983995CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0006BA04-6014-45A0-9EFF-6153983995CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0006BA04-6014-45A0-9EFF-6153983995CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MyView</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/CustomCss/Styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <div class="row">
+            <img id="log-image" src="https://upload.wikimedia.org/wikipedia/en/4/48/Sprint_Nextel_logo.svg" alt="Alternate Text" />
+            <div  id="sidebar">
+                <div class="my-nav-link">@Html.ActionLink("Home", "Home", "Home")</div>
+                <div class="my-nav-link">@Html.ActionLink("About", "About", "About")</div>
+                <div class="my-nav-link">@Html.ActionLink("Contact Us", "Adress", "Adress")</div>
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                
+                    <div class="col-md-10">
+                        @RenderBody()
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+</html>
